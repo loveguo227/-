@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A507270F1C72DA1200AE43E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A507270E1C72DA1200AE43E1 /* main.m */; };
+		A50727121C72DA1200AE43E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A50727111C72DA1200AE43E1 /* AppDelegate.m */; };
+		A50727151C72DA1200AE43E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50727141C72DA1200AE43E1 /* ViewController.m */; };
+		A50727181C72DA1200AE43E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50727161C72DA1200AE43E1 /* Main.storyboard */; };
+		A507271A1C72DA1200AE43E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50727191C72DA1200AE43E1 /* Assets.xcassets */; };
+		A507271D1C72DA1200AE43E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A507271B1C72DA1200AE43E1 /* LaunchScreen.storyboard */; };
+		A50727771C732FEF00AE43E1 /* DFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A50727761C732FEF00AE43E1 /* DFTabBar.m */; };
+		A507277A1C73315700AE43E1 /* DFTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A50727791C73315700AE43E1 /* DFTabBarButton.m */; };
+		A507277D1C73351A00AE43E1 /* DFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A507277C1C73351A00AE43E1 /* DFTabBarController.m */; };
+		A50727821C73460900AE43E1 /* DFHailController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50727811C73460900AE43E1 /* DFHailController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A507270A1C72DA1200AE43E1 /* 网易彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A507270E1C72DA1200AE43E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A50727101C72DA1200AE43E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A50727111C72DA1200AE43E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A50727131C72DA1200AE43E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A50727141C72DA1200AE43E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A50727171C72DA1200AE43E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A50727191C72DA1200AE43E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A507271C1C72DA1200AE43E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A507271E1C72DA1200AE43E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50727751C732FEF00AE43E1 /* DFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTabBar.h; sourceTree = "<group>"; };
+		A50727761C732FEF00AE43E1 /* DFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTabBar.m; sourceTree = "<group>"; };
+		A50727781C73315700AE43E1 /* DFTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTabBarButton.h; sourceTree = "<group>"; };
+		A50727791C73315700AE43E1 /* DFTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTabBarButton.m; sourceTree = "<group>"; };
+		A507277B1C73351A00AE43E1 /* DFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTabBarController.h; sourceTree = "<group>"; };
+		A507277C1C73351A00AE43E1 /* DFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTabBarController.m; sourceTree = "<group>"; };
+		A507277E1C733E5300AE43E1 /* 我的彩票.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "我的彩票.pch"; sourceTree = "<group>"; };
+		A507277F1C733E5E00AE43E1 /* msyh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msyh.ttf; sourceTree = "<group>"; };
+		A50727801C73460900AE43E1 /* DFHailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFHailController.h; sourceTree = "<group>"; };
+		A50727811C73460900AE43E1 /* DFHailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFHailController.m; sourceTree = "<group>"; wrapsLines = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50727071C72DA1200AE43E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50727011C72DA1200AE43E1 = {
+			isa = PBXGroup;
+			children = (
+				A507270C1C72DA1200AE43E1 /* 网易彩票 */,
+				A507270B1C72DA1200AE43E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A507270B1C72DA1200AE43E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A507270A1C72DA1200AE43E1 /* 网易彩票.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A507270C1C72DA1200AE43E1 /* 网易彩票 */ = {
+			isa = PBXGroup;
+			children = (
+				A50727241C72DB2C00AE43E1 /* Classes */,
+				A50727131C72DA1200AE43E1 /* ViewController.h */,
+				A50727141C72DA1200AE43E1 /* ViewController.m */,
+				A507271B1C72DA1200AE43E1 /* LaunchScreen.storyboard */,
+				A507270D1C72DA1200AE43E1 /* Supporting Files */,
+			);
+			path = "网易彩票";
+			sourceTree = "<group>";
+		};
+		A507270D1C72DA1200AE43E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A50727191C72DA1200AE43E1 /* Assets.xcassets */,
+				A507277F1C733E5E00AE43E1 /* msyh.ttf */,
+				A507277E1C733E5300AE43E1 /* 我的彩票.pch */,
+				A507271E1C72DA1200AE43E1 /* Info.plist */,
+				A507270E1C72DA1200AE43E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A50727241C72DB2C00AE43E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A50727251C72DB3C00AE43E1 /* Hall(购彩大厅) */,
+				A507272B1C72DB6700AE43E1 /* HeMai(合买跟单) */,
+				A507272A1C72DB6200AE43E1 /* Lucky(幸运选号) */,
+				A50727291C72DB6000AE43E1 /* Main(主要) */,
+				A50727281C72DB5C00AE43E1 /* Mine(我的彩票) */,
+				A50727271C72DB5900AE43E1 /* OpenAward(开奖信息) */,
+				A50727261C72DB5500AE43E1 /* Setting(设置) */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A50727251C72DB3C00AE43E1 /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				A507272F1C72DC2500AE43E1 /* View */,
+				A507272E1C72DC2200AE43E1 /* Model */,
+				A507272D1C72DC1F00AE43E1 /* Controller */,
+			);
+			name = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		A50727261C72DB5500AE43E1 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				A50727411C72DD1100AE43E1 /* View */,
+				A50727401C72DD1000AE43E1 /* Model */,
+				A507273F1C72DD0D00AE43E1 /* Controller */,
+			);
+			name = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		A50727271C72DB5900AE43E1 /* OpenAward(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				A507273E1C72DCF200AE43E1 /* View */,
+				A507273D1C72DCF000AE43E1 /* Model */,
+				A507273C1C72DCEE00AE43E1 /* Controller */,
+			);
+			name = "OpenAward(开奖信息)";
+			sourceTree = "<group>";
+		};
+		A50727281C72DB5C00AE43E1 /* Mine(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				A507273B1C72DCD800AE43E1 /* View */,
+				A507273A1C72DCD500AE43E1 /* Model */,
+				A50727391C72DCD300AE43E1 /* Controller */,
+			);
+			name = "Mine(我的彩票)";
+			sourceTree = "<group>";
+		};
+		A50727291C72DB6000AE43E1 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				A50727381C72DCBD00AE43E1 /* View */,
+				A50727371C72DCBB00AE43E1 /* Model */,
+				A50727361C72DCB900AE43E1 /* Controller */,
+				A507272C1C72DBDD00AE43E1 /* Other */,
+			);
+			name = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		A507272A1C72DB6200AE43E1 /* Lucky(幸运选号) */ = {
+			isa = PBXGroup;
+			children = (
+				A50727351C72DC9500AE43E1 /* View */,
+				A50727341C72DC9300AE43E1 /* Model */,
+				A50727331C72DC9200AE43E1 /* Controller */,
+			);
+			name = "Lucky(幸运选号)";
+			sourceTree = "<group>";
+		};
+		A507272B1C72DB6700AE43E1 /* HeMai(合买跟单) */ = {
+			isa = PBXGroup;
+			children = (
+				A50727321C72DC6600AE43E1 /* View */,
+				A50727311C72DC6300AE43E1 /* Model */,
+				A50727301C72DC6000AE43E1 /* Controller */,
+			);
+			name = "HeMai(合买跟单)";
+			sourceTree = "<group>";
+		};
+		A507272C1C72DBDD00AE43E1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A50727101C72DA1200AE43E1 /* AppDelegate.h */,
+				A50727111C72DA1200AE43E1 /* AppDelegate.m */,
+				A50727161C72DA1200AE43E1 /* Main.storyboard */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		A507272D1C72DC1F00AE43E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A50727801C73460900AE43E1 /* DFHailController.h */,
+				A50727811C73460900AE43E1 /* DFHailController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		A507272E1C72DC2200AE43E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A507272F1C72DC2500AE43E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A50727301C72DC6000AE43E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A50727311C72DC6300AE43E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A50727321C72DC6600AE43E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A50727331C72DC9200AE43E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A50727341C72DC9300AE43E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A50727351C72DC9500AE43E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A50727361C72DCB900AE43E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A507277B1C73351A00AE43E1 /* DFTabBarController.h */,
+				A507277C1C73351A00AE43E1 /* DFTabBarController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A50727371C72DCBB00AE43E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A50727381C72DCBD00AE43E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A50727751C732FEF00AE43E1 /* DFTabBar.h */,
+				A50727761C732FEF00AE43E1 /* DFTabBar.m */,
+				A50727781C73315700AE43E1 /* DFTabBarButton.h */,
+				A50727791C73315700AE43E1 /* DFTabBarButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A50727391C72DCD300AE43E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A507273A1C72DCD500AE43E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A507273B1C72DCD800AE43E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A507273C1C72DCEE00AE43E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A507273D1C72DCF000AE43E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A507273E1C72DCF200AE43E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A507273F1C72DD0D00AE43E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A50727401C72DD1000AE43E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A50727411C72DD1100AE43E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50727091C72DA1200AE43E1 /* 网易彩票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50727211C72DA1200AE43E1 /* Build configuration list for PBXNativeTarget "网易彩票" */;
+			buildPhases = (
+				A50727061C72DA1200AE43E1 /* Sources */,
+				A50727071C72DA1200AE43E1 /* Frameworks */,
+				A50727081C72DA1200AE43E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网易彩票";
+			productName = "网易彩票";
+			productReference = A507270A1C72DA1200AE43E1 /* 网易彩票.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50727021C72DA1200AE43E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DF;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FEI;
+				TargetAttributes = {
+					A50727091C72DA1200AE43E1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A50727051C72DA1200AE43E1 /* Build configuration list for PBXProject "网易彩票" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50727011C72DA1200AE43E1;
+			productRefGroup = A507270B1C72DA1200AE43E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50727091C72DA1200AE43E1 /* 网易彩票 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50727081C72DA1200AE43E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A507271D1C72DA1200AE43E1 /* LaunchScreen.storyboard in Resources */,
+				A507271A1C72DA1200AE43E1 /* Assets.xcassets in Resources */,
+				A50727181C72DA1200AE43E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50727061C72DA1200AE43E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50727151C72DA1200AE43E1 /* ViewController.m in Sources */,
+				A50727121C72DA1200AE43E1 /* AppDelegate.m in Sources */,
+				A507270F1C72DA1200AE43E1 /* main.m in Sources */,
+				A507277D1C73351A00AE43E1 /* DFTabBarController.m in Sources */,
+				A507277A1C73315700AE43E1 /* DFTabBarButton.m in Sources */,
+				A50727771C732FEF00AE43E1 /* DFTabBar.m in Sources */,
+				A50727821C73460900AE43E1 /* DFHailController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A50727161C72DA1200AE43E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50727171C72DA1200AE43E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A507271B1C72DA1200AE43E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A507271C1C72DA1200AE43E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A507271F1C72DA1200AE43E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50727201C72DA1200AE43E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50727221C72DA1200AE43E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fei.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A50727231C72DA1200AE43E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fei.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50727051C72DA1200AE43E1 /* Build configuration list for PBXProject "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A507271F1C72DA1200AE43E1 /* Debug */,
+				A50727201C72DA1200AE43E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50727211C72DA1200AE43E1 /* Build configuration list for PBXNativeTarget "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50727221C72DA1200AE43E1 /* Debug */,
+				A50727231C72DA1200AE43E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50727021C72DA1200AE43E1 /* Project object */;
+}
